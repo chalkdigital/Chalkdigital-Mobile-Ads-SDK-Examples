@@ -1,0 +1,16 @@
+/* 
+  CDAdsLocalization.strings
+  CDAds
+
+  Created by Arun Gupta on 28/07/16.
+  Copyright © 2016 Chalkdigital. All rights reserved.
+*/
+"TrackingPermissionTitle" = "は、あなたのデバイスの情報を使用したいと思います。";
+"TrackingPermissionMessage" = "デバイス情報は、より良いあなたに提供するために必要とされます。";
+"LocationServiceDisabledTitle" = "位置情報サービスが無効になっています。";
+"LocationServiceDisabledMessage" = "アプリは、あなたがより良い提供するために位置情報サービスを必要とします。私たちはより良いサービスを提供することができるように位置情報サービスを有効にしてください。";
+"LocationPermissionDeniedMessage" = "アプリは、あなたがより良い提供するために位置情報サービスを必要とします。設定に移動し、このアプリのための位置情報サービスをオンにしてください。";
+"LocationPermissionDeniedTitle" = "はあなたの場所へのアクセスを許可されていません。";
+"PermissionAllowLabel" = "OK";
+"PermissionDenyLabel" = "許可しないでください";
+"AlertDialogCancelLabel" = "OK";
