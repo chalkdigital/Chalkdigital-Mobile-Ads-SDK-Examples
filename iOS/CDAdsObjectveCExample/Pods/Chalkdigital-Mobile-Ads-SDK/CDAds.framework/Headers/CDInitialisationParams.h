@@ -9,9 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+typedef enum {
+    chalkdigital,
+    thirdparty
+} Provider;
+
 @interface CDInitialisationParams : NSObject
 @property (strong, nonatomic, nonnull) NSString *key;
 @property (strong, nonatomic, nonnull) NSString *publisherId;
 @property (strong, nonatomic, nonnull) NSString *secret;
 @property BOOL enableTracking;
+@property BOOL askForTrackingPermission;
+@property Provider provider;
 @end

@@ -645,6 +645,19 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
+		<key>583F216AB00D31B5E6024FEBE5F22DAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>cdads.mom</string>
+			<key>path</key>
+			<string>CDAds.framework/cdads.momd/cdads.mom</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>589086754EEE766727C3D9A6F898DFB8</key>
 		<dict>
 			<key>fileRef</key>
@@ -720,22 +733,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5A6BE78426F5C8AB0729747E4703BD1C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B0EE4C3FEC452B9D230A49706770FFAE</string>
-				<string>A70ABC09D511F0B5ECD5C28FB48CE540</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Chalkdigital-Mobile-Ads-SDK</string>
-			<key>path</key>
-			<string>Chalkdigital-Mobile-Ads-SDK</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5BED36C34BAFD1906CD9CBCFB517E89D</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -784,6 +781,22 @@
 			<string>AFURLSessionManager.m</string>
 			<key>path</key>
 			<string>AFNetworking/AFURLSessionManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6200EA7346D942384E4711BE4CBFB33F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7DB4445E0ACF3A9F4E19EF0FE1D3D21</string>
+				<string>EFB3432EC50BA54EE83C4758C5A03B25</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Chalkdigital-Mobile-Ads-SDK</string>
+			<key>path</key>
+			<string>Chalkdigital-Mobile-Ads-SDK</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -857,21 +870,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>713811FB97693CBF60673752B8BCC17D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>CDAds.bundle</string>
-			<key>path</key>
-			<string>CDAds.framework/CDAds.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>718E04E7BEBA2BE0F26B4A08DD54EAC9</key>
 		<dict>
@@ -1029,6 +1027,19 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>8DB66960ACE9D1D785296AE2E9127005</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>close.png</string>
+			<key>path</key>
+			<string>CDAds.framework/close.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>8E82178CC9BD8BE3DBF2C10E33807AEB</key>
 		<dict>
@@ -1191,21 +1202,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A70ABC09D511F0B5ECD5C28FB48CE540</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>713811FB97693CBF60673752B8BCC17D</string>
-				<string>E992A8447D6B11ABA25617AA355E4B06</string>
-				<string>E7290F3E56DA27CB5568DABF5AED62A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>A8FC6A53F6C1CB4DEFD972664E1AF3B1</key>
 		<dict>
 			<key>fileRef</key>
@@ -1272,19 +1268,6 @@
 			<string>544F446574B5BC8DCD64974BF1031C94</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>B0EE4C3FEC452B9D230A49706770FFAE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC3743114E1B1F2A08BC689134E1CD2F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B51AA1F7701DCDBCC9B88A15320F9C2C</key>
 		<dict>
@@ -1596,6 +1579,17 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>CEBCA8DED0CE97453851EA7C8BFDC561</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>path</key>
+			<string>CDAds.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>CED4DC24A34B76E6FFFD16591F48EBE6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1719,14 +1713,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DC3743114E1B1F2A08BC689134E1CD2F</key>
+		<key>D876E5D28FC0DA741C8DC04DFA0F1328</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>VersionInfo.plist</string>
 			<key>path</key>
-			<string>CDAds.framework</string>
+			<string>CDAds.framework/cdads.momd/VersionInfo.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1865,31 +1863,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E7290F3E56DA27CB5568DABF5AED62A6</key>
+		<key>E7DB4445E0ACF3A9F4E19EF0FE1D3D21</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>CEBCA8DED0CE97453851EA7C8BFDC561</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>VersionInfo.plist</string>
-			<key>path</key>
-			<string>CDAds.framework/cdads.momd/VersionInfo.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E992A8447D6B11ABA25617AA355E4B06</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>cdads.mom</string>
-			<key>path</key>
-			<string>CDAds.framework/cdads.momd/cdads.mom</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1926,7 +1909,7 @@
 			<key>children</key>
 			<array>
 				<string>C4B03E60BD9E00049AA41E2E0EBE46CE</string>
-				<string>5A6BE78426F5C8AB0729747E4703BD1C</string>
+				<string>6200EA7346D942384E4711BE4CBFB33F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1941,6 +1924,37 @@
 			<string>0AADAA153BA16445D2D2EA5E434B98A3</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>EFB3432EC50BA54EE83C4758C5A03B25</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F2F4683230D421C59F289423259D8FC2</string>
+				<string>583F216AB00D31B5E6024FEBE5F22DAF</string>
+				<string>8DB66960ACE9D1D785296AE2E9127005</string>
+				<string>D876E5D28FC0DA741C8DC04DFA0F1328</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F2F4683230D421C59F289423259D8FC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>CDAds.bundle</string>
+			<key>path</key>
+			<string>CDAds.framework/CDAds.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F3774B1449FCE5B3CA3E1B336E11D284</key>
 		<dict>

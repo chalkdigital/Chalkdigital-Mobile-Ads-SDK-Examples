@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SearchDistance</key>
+	<integer>10</integer>
+	<key>SearchType</key>
+	<string>kGravyGoldRTLPSearchTypeWithinPolygon</string>
+	<key>LocationServices</key>
+	<true/>
+	<key>LocationReporting</key>
+	<true/>
+	<key>LocationSettingsPreset</key>
+	<string>GGLocationServicePresetDefault</string>
+	<key>LocationAwarenessSupport</key>
+	<string>GGSLocationAwarenessSupportSignificantChanges</string>
+	<key>AdvertisersID</key>
+	<true/>
+	<key>RealTimeProcessing</key>
+	<false/>
+	<key>MaximumDwellTime</key>
+	<integer>10</integer>
+	<key>isProduction</key>
+	<false/>
+	<key>TestMode</key>
+	<true/>
+</dict>
+</plist>

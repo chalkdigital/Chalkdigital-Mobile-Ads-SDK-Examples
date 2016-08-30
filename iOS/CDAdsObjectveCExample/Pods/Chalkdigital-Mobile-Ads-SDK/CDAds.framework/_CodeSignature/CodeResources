@@ -8,11 +8,15 @@
 		<data>
 		a0KhCgqpsAY5JeiBYW/+xBJkkzw=
 		</data>
+		<key>CDAds.bundle/GravyConfig.plist</key>
+		<data>
+		ebIWAOXZYnHlrSHBO6MSUrJZskU=
+		</data>
 		<key>CDAds.bundle/en.lproj/CDAdsLocalization.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6UxwZEh9zoRP0zw73BltRtK+uV0=
+			YXq53UoTU99vC3zEuXsU+RqLv90=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -21,11 +25,15 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Vbq/ISiyu7VKUnWM6a0cQT9UJG4=
+			zUtF8ac4V7aRaF1HSzvDcoBwl4o=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>GravyConfig.plist</key>
+		<data>
+		sQjaMhs3PSKSq9ctxJK5+28wBTU=
+		</data>
 		<key>Headers/CDADBannerView.h</key>
 		<data>
 		coPVgZEsq7ZL1SQJkO7MQQ9ebv8=
@@ -44,7 +52,7 @@
 		</data>
 		<key>Headers/CDAds.h</key>
 		<data>
-		uFMUVN7HlWeUeelVpUvSZuF5BJM=
+		lWyeIMQDz79LzEWr4LwqQKP0JBI=
 		</data>
 		<key>Headers/CDDeviceInfo.h</key>
 		<data>
@@ -56,11 +64,47 @@
 		</data>
 		<key>Headers/CDInitialisationParams.h</key>
 		<data>
-		EHjxI6JErPBpPifxWW1+U4XrY6o=
+		HkAWmEEqtb0wM5C7wl1XUklV75o=
 		</data>
 		<key>Headers/CDTrackingRequest.h</key>
 		<data>
 		iRcPWMjFR5ul+fMJdglHuZHazoE=
+		</data>
+		<key>Headers/GravySDK.h</key>
+		<data>
+		68zgZm2/FzvrdPuUmE21f45rro8=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravyConfig.h</key>
+		<data>
+		xpAC4bSMdZwZyplmKRTMKsehURY=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravyConstants.h</key>
+		<data>
+		RytELivJK9Rr35PABjtiYuik1p0=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravyGoldSDK.h</key>
+		<data>
+		D/GKzwH3KQ95mK46LewZOEdrnow=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravyGoldSDKDefines.h</key>
+		<data>
+		esNzpzxWIj0Q8hVszz6Vk0yZZMY=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravyGoldSDKDelegate.h</key>
+		<data>
+		n3YBXHn3T3hiJKpRo3X+zF7tpXQ=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravyRegistration.h</key>
+		<data>
+		MTvmEOtuBkK8jzGpI0kXM7kbPS0=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravySDK.h</key>
+		<data>
+		x/47kkw5RUrcLxhqK4JOohueTq4=
+		</data>
+		<key>Headers/comGravyGravyGoldSDKGravySDKRTPlace.h</key>
+		<data>
+		+eJsX9ZHx/XUutH0UfgD2nuZcNo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -78,6 +122,10 @@
 		<data>
 		d7MDa4n6QkjEVE7iRK7R5pUy2NU=
 		</data>
+		<key>close.png</key>
+		<data>
+		qo6eWTqhYukd/3WxugCY3nKid1s=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -92,15 +140,26 @@
 			14dWnhjBN7/uLmlNLFeTbAkNBbrUO0YhEItpEbIcWmI=
 			</data>
 		</dict>
+		<key>CDAds.bundle/GravyConfig.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ebIWAOXZYnHlrSHBO6MSUrJZskU=
+			</data>
+			<key>hash2</key>
+			<data>
+			rk3fIi4UXP0ahAsp+ucarwMdlJd0DM0//U/ERqrkkVU=
+			</data>
+		</dict>
 		<key>CDAds.bundle/en.lproj/CDAdsLocalization.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6UxwZEh9zoRP0zw73BltRtK+uV0=
+			YXq53UoTU99vC3zEuXsU+RqLv90=
 			</data>
 			<key>hash2</key>
 			<data>
-			gxbGAqaU9NEuD0NnePGhDZZiK/WFxmx40jtZbdf7dB4=
+			npE1BDKiYBvBjP3BA3EYDFUgiQQduEL9vTYNvbkbZYM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -109,14 +168,25 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Vbq/ISiyu7VKUnWM6a0cQT9UJG4=
+			zUtF8ac4V7aRaF1HSzvDcoBwl4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			YR0wzQ7Mn3mVUVnv6hcEXhhtYwHukFjl62V/D56FpJQ=
+			z3KHcWmZng1Yj4v/Iya7bdrDAILXkyvld8vnj3hIzBs=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>GravyConfig.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sQjaMhs3PSKSq9ctxJK5+28wBTU=
+			</data>
+			<key>hash2</key>
+			<data>
+			XJn3UxHjw0zqjhXVe6I3qnCPV2vPOyIUwY++ML8Uavg=
+			</data>
 		</dict>
 		<key>Headers/CDADBannerView.h</key>
 		<dict>
@@ -166,11 +236,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uFMUVN7HlWeUeelVpUvSZuF5BJM=
+			lWyeIMQDz79LzEWr4LwqQKP0JBI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IwZXPHi/3GfzltV2Y1sC7nhSq+2sgEN6iIfxSaJTsFg=
+			3fHAC3lptoOaCrdfB7ft0r+zZsg1kNwVbEdXyCZbxdA=
 			</data>
 		</dict>
 		<key>Headers/CDDeviceInfo.h</key>
@@ -199,11 +269,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EHjxI6JErPBpPifxWW1+U4XrY6o=
+			HkAWmEEqtb0wM5C7wl1XUklV75o=
 			</data>
 			<key>hash2</key>
 			<data>
-			eV13vTK1skOIWkMXGCt5kwocIzpEa4k7Pdq0lE0Jl/4=
+			CHMONEeXfyRC5CfxJCTBXvzYn2pY87IZbNOVs0RWIgw=
 			</data>
 		</dict>
 		<key>Headers/CDTrackingRequest.h</key>
@@ -215,6 +285,105 @@
 			<key>hash2</key>
 			<data>
 			sOZgzejOK48hgzgETFxLjoEr3XrXYJILI3jBfRbEiMc=
+			</data>
+		</dict>
+		<key>Headers/GravySDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			68zgZm2/FzvrdPuUmE21f45rro8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Z73y3ePwYGu845/M7PPq2sIhGCVk+F07GqDp+lvXWQ4=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravyConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xpAC4bSMdZwZyplmKRTMKsehURY=
+			</data>
+			<key>hash2</key>
+			<data>
+			JWcd19dhYKiBF0Ph4P4VHamgAKi0jerkYG1uICecPec=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravyConstants.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RytELivJK9Rr35PABjtiYuik1p0=
+			</data>
+			<key>hash2</key>
+			<data>
+			8kX3pPkWwLwoSqmzKJBb4SUUmXbcawCrK/eHMd1Tnb8=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravyGoldSDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D/GKzwH3KQ95mK46LewZOEdrnow=
+			</data>
+			<key>hash2</key>
+			<data>
+			yVGhMjpMxmE5PCnIs2jQQ86syLI1meTvrkpuP7cea1w=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravyGoldSDKDefines.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			esNzpzxWIj0Q8hVszz6Vk0yZZMY=
+			</data>
+			<key>hash2</key>
+			<data>
+			pLcehqepsMZHCTubpHW5MqDNzKnOGB52QsKdyll8Bpw=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravyGoldSDKDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n3YBXHn3T3hiJKpRo3X+zF7tpXQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			PnnIazPLN42rH5Le52R3n5/FUwZAeZewqOSMQSXkXZw=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravyRegistration.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MTvmEOtuBkK8jzGpI0kXM7kbPS0=
+			</data>
+			<key>hash2</key>
+			<data>
+			eIuAhl6PPSJ/3ncKNJUct8ah7LVMaPHT0cb2zaK/qbU=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravySDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x/47kkw5RUrcLxhqK4JOohueTq4=
+			</data>
+			<key>hash2</key>
+			<data>
+			S3mmnUjvg0sUQ57G4W4rHhxnKcwveVWwxoTRwjLXowc=
+			</data>
+		</dict>
+		<key>Headers/comGravyGravyGoldSDKGravySDKRTPlace.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+eJsX9ZHx/XUutH0UfgD2nuZcNo=
+			</data>
+			<key>hash2</key>
+			<data>
+			k0fMDhz8yGpAa4KYjS7nLDobzhobdUojIsmhrZicFWA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -248,6 +417,17 @@
 			<key>hash2</key>
 			<data>
 			rsTPdO/PGXh0K1Tfp5ql8g9j30/LcwzDwo4XAcWh9Rs=
+			</data>
+		</dict>
+		<key>close.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qo6eWTqhYukd/3WxugCY3nKid1s=
+			</data>
+			<key>hash2</key>
+			<data>
+			sGXVSg5z+uxTC3u72NO8aZwzcJvexCVX5Mb2zJO5hBE=
 			</data>
 		</dict>
 	</dict>

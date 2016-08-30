@@ -15,6 +15,8 @@
 #import "CDTrackingRequest.h"
 #import "CDADSize.h"
 #import "CDADController.h"
+#import "GravySDK.h"
+
 
 //! Project version number for CDAds.
 FOUNDATION_EXPORT double CDAdsVersionNumber;

@@ -61,11 +61,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/CDAds.bundle"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads.mom"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/VersionInfo.plist"
+  install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/close.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/CDAds.bundle"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads.mom"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/VersionInfo.plist"
+  install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/close.png"
 fi
 
 mkdir -p "${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

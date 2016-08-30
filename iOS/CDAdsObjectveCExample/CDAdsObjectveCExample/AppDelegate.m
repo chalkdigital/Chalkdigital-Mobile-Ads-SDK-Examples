@@ -18,10 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     CDInitialisationParams *params = [[CDInitialisationParams alloc] init];
-    params.key = @"chalkboard";                     //Provided by Chalkdigital;
+    params.key = @"chalkboard";                         //Provided by Chalkdigital;
     params.secret = @"Your_CDAds_Secret";               //Provided by Chalkdigital;
-    params.publisherId = @"chalkboard";     //Provided by Chalkdigital;
+    params.publisherId = @"chalkboard";                 //Provided by Chalkdigital;
     params.enableTracking = YES;                        //Set NO disable device information tracking
+    params.askForTrackingPermission = YES;              //Set NO to disable device information tracking
     _cdAds = [CDAds initialiseWithParams:params];
     return YES;
 }
