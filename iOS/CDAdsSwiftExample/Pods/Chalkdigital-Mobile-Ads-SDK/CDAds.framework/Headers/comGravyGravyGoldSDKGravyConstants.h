@@ -23,7 +23,7 @@
 extern NSString * const kSDKVersion;
 
 typedef NS_ENUM(NSInteger, kSDKVersion_INT) {
-	CurrentSDKVersion = 2010
+	CurrentSDKVersion = 2012
 };
 
 @end
