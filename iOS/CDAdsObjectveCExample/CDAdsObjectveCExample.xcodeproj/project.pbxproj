@@ -137,6 +137,7 @@
 				TargetAttributes = {
 					E76B9BCB1D4F5B680007A843 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 28PYY935HQ;
 					};
 				};
 			};
@@ -341,6 +342,7 @@
 			baseConfigurationReference = 3E0B6B299104D6B28120A5CD /* Pods-CDAdsObjectveCExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28PYY935HQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CDAdsObjectveCExample",
@@ -358,6 +360,7 @@
 			baseConfigurationReference = F2FA6267CABB577DE16C9013 /* Pods-CDAdsObjectveCExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 28PYY935HQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/CDAdsObjectveCExample",

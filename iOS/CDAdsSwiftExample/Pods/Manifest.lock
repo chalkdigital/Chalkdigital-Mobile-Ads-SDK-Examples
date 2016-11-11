@@ -14,14 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - Chalkdigital-Mobile-Ads-SDK (1.0.5):
+  - Chalkdigital-Mobile-Ads-SDK (1.0.6):
     - AFNetworking (< 4.0, >= 2.0)
 
 DEPENDENCIES:
-  - Chalkdigital-Mobile-Ads-SDK (~> 1.0.5)
+  - Chalkdigital-Mobile-Ads-SDK (~> 1.0.6)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  Chalkdigital-Mobile-Ads-SDK: 2a4b14d06ba03cd2e7c2d40df23fd2a01eff77fb
+  Chalkdigital-Mobile-Ads-SDK: 638c77cfcaad1754ca171491917ec1be07d70dfc
 
 COCOAPODS: 0.39.0
