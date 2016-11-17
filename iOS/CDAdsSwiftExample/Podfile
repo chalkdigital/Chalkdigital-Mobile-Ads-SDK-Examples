@@ -4,6 +4,6 @@
 # use_frameworks!
 
 target 'CDAdsSwiftExample' do
-    pod 'Chalkdigital-Mobile-Ads-SDK', '~>1.0.6'
+    pod 'Chalkdigital-Mobile-Ads-SDK', '~>1.0.7'
 end
 
