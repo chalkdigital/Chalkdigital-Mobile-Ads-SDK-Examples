@@ -25,8 +25,8 @@
     request.targetingEducation = @"";
     request.targetingGender = @"";
     
-    ////    location Auto Update Enabled by Default, If you disable this then location is need to be set by application
-    //    request.locationAutoUpdateEnabled = YES;
+    ////    location Auto Update Enabled by Default, If you disable this then location is need to be set by application which is using this SDK
+    //    request.locationAutoUpdateEnabled = NO;
     //
     //    CDGeoInfo *geoInfo = [[CDGeoInfo alloc] init];
     //    geoInfo.city = @"City Name";
@@ -36,16 +36,12 @@
     //
     //    request.geoInfo = geoInfo;
     //
-    ////    ip Auto Update Enabled by Default, If you disable this then ip is need to be set by application
-    //    request.ipAutoUpdateEnabled = NO;
-    //    request.ip = @"Your Public IP";
-    //
-    ////    Ad Auto Refresh Enabled by Default, If you disable this then this view will stop refreshing the ad after first successful impression, you can again hit ad request by calling loadRequest method on View.
+    ////  Ad Auto Refresh Enabled by Default, If you disable this then this view will stop refreshing the ad after first successful impression, you can again hit ad request by calling loadRequest method on View.
     //    request.adAutoRefreshEnabled = NO;
     
     //    if you want to change the Ad refresh Interval.
     self.adBannerView.refreshInterval = 30.0;                   // default is 30.0;
-    self.adBannerView.viewController = self;
+    self.adBannerView.rootViewController = self;
     [self.adBannerView loadRequest:request];
     // Do any additional setup after loading the view, typically from a nib.
 }

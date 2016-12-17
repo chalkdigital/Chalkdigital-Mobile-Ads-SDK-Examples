@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         request.targetingEducation = "";
         
         self.adBannerView.refreshInterval = 30.0
-        self.adBannerView.viewController = self
+        self.adBannerView.rootViewController = self
         self.adBannerView.loadRequest(request)
         // Do any additional setup after loading the view, typically from a nib.
     }

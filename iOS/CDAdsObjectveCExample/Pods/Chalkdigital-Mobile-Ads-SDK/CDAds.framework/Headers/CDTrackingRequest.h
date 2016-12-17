@@ -11,8 +11,6 @@
 @interface CDTrackingRequest : NSObject
 
 @property (strong, nonatomic, nonnull) CDGeoInfo *geoInfo;
-@property (strong, nonatomic, nonnull) NSString *ipV4;
-@property (strong, nonatomic, nonnull) NSString *ipV6;
 - (id _Nonnull) init __unavailable;
 +(CDTrackingRequest* _Nonnull)trackingRequest;
 -(NSMutableDictionary* _Nonnull)getParams;

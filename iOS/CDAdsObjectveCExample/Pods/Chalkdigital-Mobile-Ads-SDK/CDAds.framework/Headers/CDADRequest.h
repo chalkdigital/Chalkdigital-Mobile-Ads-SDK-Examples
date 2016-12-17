@@ -13,11 +13,9 @@
 @property (strong, nonatomic, nonnull) NSString *targetingGender;
 @property (strong, nonatomic, nonnull) NSString *targetingIncome;
 @property (strong, nonatomic, nonnull) NSString *targetingEducation;
-@property (strong, nonatomic, nonnull) NSString *ip;
 @property (strong, nonatomic, nonnull) NSString *keyword;
 @property (strong, readonly, nonatomic, nonnull) NSString *ver;
 @property BOOL locationAutoUpdateEnabled;
-@property BOOL ipAutoUpdateEnabled;
 @property (strong, nonatomic, nonnull) CDGeoInfo *geoInfo;
 - (BOOL)isReady;
 - ( NSMutableDictionary* _Nonnull )getParams;
