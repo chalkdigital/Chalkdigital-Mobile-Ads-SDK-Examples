@@ -22,9 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         params.key = "chalkboard";                         //Provided by Chalkdigital;
         params.secret = "Your_CDAds_Secret";               //Provided by Chalkdigital;
         params.publisherId = "chalkboard";                 //Provided by Chalkdigital;
-        params.enableTracking = true;                      //Set NO disable device information tracking
-        params.logLevel = CDLogLevelDetail;
-        _cdAds = CDAds.initialise(with: params);
+
+        _cdAds = CDAds.initialise(with: params, launchpOptions: launchOptions, enableTracking: true);
         return true
     }
 

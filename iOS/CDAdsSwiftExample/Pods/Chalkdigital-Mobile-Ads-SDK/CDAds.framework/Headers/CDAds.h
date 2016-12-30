@@ -37,7 +37,9 @@ FOUNDATION_EXPORT const unsigned char CDAdsVersionString[];
 @interface CDAds : NSObject
 @property (strong, nonatomic) UIViewController<CDAdsDelegate>* cdAdsDelegate;
 @property (readonly, strong, nonatomic) CDInitialisationParams *cdInitialisationParams;
-+(CDAds*)initialiseWithParams:(CDInitialisationParams*)cdInitialisationParams launchpOptions:(NSDictionary*)launchOptions;
+@property BOOL enableTracking;
+@property (readonly) BOOL limitedTrackingEnabled;
++(CDAds*)initialiseWithParams:(CDInitialisationParams*)cdInitialisationParams launchpOptions:(NSDictionary*)launchOptions enableTracking:(BOOL)enableTracking;
 +(CDAds*)runningInstance;
 -(void)performUpdateWithCompletionHandler:(void  (^)(UIBackgroundFetchResult))completionHandler;
 @end

@@ -31,10 +31,10 @@ didFailToReceiveAdWithError:(CDADRequestError *)error;
 
 @interface CDADBannerView : UIWebView <UIWebViewDelegate>
 @property (weak, nonatomic) UIViewController *rootViewController;
-@property CDAdSize cdAdSize;
+@property (nonatomic) CDAdSize cdAdSize;
 @property (atomic) BOOL isExecuting;
 @property (readonly, strong, nonatomic) CDADRequest *adRequest;
-@property (weak, nonatomic) UIViewController<CDADBannerViewDelegate> *cdAdBannerViewDelegate;
+@property (weak, nonatomic) NSObject<CDADBannerViewDelegate> *cdAdBannerViewDelegate;
 @property (nonatomic) BOOL adAutoRefreshEnabled;
 @property (nonatomic) NSTimeInterval refreshInterval;
 -(void)stoppedExecuting;

@@ -9,8 +9,6 @@
 #import "CDGeoInfo.h"
 
 @interface CDTrackingRequest : NSObject
-
-@property (strong, nonatomic, nonnull) CDGeoInfo *geoInfo;
 - (id _Nonnull) init __unavailable;
 +(CDTrackingRequest* _Nonnull)trackingRequest;
 -(NSMutableDictionary* _Nonnull)getParams;

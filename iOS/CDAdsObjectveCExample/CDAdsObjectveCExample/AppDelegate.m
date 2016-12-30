@@ -21,9 +21,8 @@
     params.key = @"chalkboard";                         //Provided by Chalkdigital;
     params.secret = @"Your_CDAds_Secret";               //Provided by Chalkdigital;
     params.publisherId = @"chalkboard";                 //Provided by Chalkdigital;
-    params.enableTracking = YES;                        //Set NO disable device information tracking
-    params.logLevel = CDLogLevelDetail;
-    _cdAds = [CDAds initialiseWithParams:params launchpOptions:launchOptions];
+    
+    _cdAds = [CDAds initialiseWithParams:params launchpOptions:launchOptions enableTracking:YES];
     return YES;
 }
 

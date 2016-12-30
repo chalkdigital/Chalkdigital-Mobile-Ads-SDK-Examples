@@ -16,12 +16,10 @@
 @property (strong, nonatomic, nonnull) NSString *key;
 @property (strong, nonatomic, nonnull) NSString *publisherId;
 @property (strong, nonatomic, nonnull) NSString *secret;
+@property (strong, nonatomic, nonnull) NSString *site;
 @property CLLocationDistance distanceFilter;
 @property NSTimeInterval locationUpdateInterval;
 @property NSTimeInterval adLocationExpiryInterval;
 @property CDLogLevel logLevel;
 @property CDADProvider provider;
-@property BOOL enableTracking;
-@property (readonly) BOOL limitedTrackingEnabled;
-@property BOOL locationUpdateServicesEnabled;
 @end
