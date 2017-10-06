@@ -45,6 +45,8 @@
 	</array>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>$(EXECUTABLE_NAME) needs your location information to serve you better.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>$(EXECUTABLE_NAME) needs your location information to serve you better.</string>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>$(EXECUTABLE_NAME) needs your location information to serve you better.</string>
     <key>UIBackgroundModes</key>

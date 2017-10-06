@@ -11,21 +11,26 @@ import CDAds
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var adBannerView: CDADBannerView!
+    @IBOutlet weak var largeBannerView: CDADBannerView!
+    @IBOutlet weak var smallBannerView: CDADBannerView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.adBannerView.cdAdSize = kCDAdSizeBanner320x50;
+        self.smallBannerView.cdAdSize = kCDAdSizeBanner320x50;
         let request : CDADRequest = CDADRequest()
         request.targetingAge = "";
         request.targetingGender = "";
         request.targetingIncome = "";
         request.targetingEducation = "";
         
-        self.adBannerView.refreshInterval = 30.0
-        self.adBannerView.rootViewController = self
-        self.adBannerView.loadRequest(request)
-        // Do any additional setup after loading the view, typically from a nib.
+        self.smallBannerView.refreshInterval = 30.0
+        self.smallBannerView.rootViewController = self
+        self.smallBannerView.loadRequest(request)
+
+        self.largeBannerView.refreshInterval = 30.0
+        self.largeBannerView.rootViewController = self
+        self.largeBannerView.loadRequest(request)
+
     }
 
     override func didReceiveMemoryWarning() {

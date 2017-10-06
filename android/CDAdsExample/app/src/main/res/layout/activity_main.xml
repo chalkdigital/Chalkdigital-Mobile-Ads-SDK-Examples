@@ -8,12 +8,22 @@
         android:layout_height="match_parent"
         android:id="@+id/webview"/>
     <com.chalkdigital.cdads.CDADBannerView
-        android:id="@+id/adView"
+        android:id="@+id/largeAdView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         ads:cdAdSize="CDAD_BANNERSIZE_300X250"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+    </com.chalkdigital.cdads.CDADBannerView>
+    <com.chalkdigital.cdads.CDADBannerView
+        android:id="@+id/smallAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:cdAdSize="CDAD_BANNERSIZE_320X50"
         android:clipChildren="false"
         android:clipToPadding="false">
     </com.chalkdigital.cdads.CDADBannerView>

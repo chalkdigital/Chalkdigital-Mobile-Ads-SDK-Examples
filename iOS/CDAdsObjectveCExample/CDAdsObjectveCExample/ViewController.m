@@ -10,7 +10,8 @@
 #import <CDAds/CDAds.h>
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet CDADBannerView *adBannerView;
+@property (weak, nonatomic) IBOutlet CDADBannerView *smallBannerView;
+@property (weak, nonatomic) IBOutlet CDADBannerView *largeBannerView;
 
 @end
 
@@ -18,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.adBannerView setCdAdSize:kCDAdSizeBanner320x50];
+    [self.smallBannerView setCdAdSize:kCDAdSizeBanner320x50];
     CDADRequest *request = [[CDADRequest alloc] init];
     request.keyword = @"";
     request.targetingAge = @"";
@@ -40,9 +41,12 @@
     //    request.adAutoRefreshEnabled = NO;
     
     //    if you want to change the Ad refresh Interval.
-    self.adBannerView.refreshInterval = 30.0;                   // default is 30.0;
-    self.adBannerView.rootViewController = self;
-    [self.adBannerView loadRequest:request];
+    self.smallBannerView.refreshInterval = 30.0;                   // default is 30.0;
+    self.largeBannerView.refreshInterval = 30.0;
+    self.smallBannerView.rootViewController = self;
+    [self.smallBannerView loadRequest:request];
+    self.largeBannerView.rootViewController = self;
+    [self.largeBannerView loadRequest:request];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,15 +29,26 @@
                                     <constraint firstAttribute="height" constant="50" id="wMi-pA-DNv"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3o-NT-OeB" customClass="CDADBannerView">
+                                <rect key="frame" x="37.5" y="208.5" width="300" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="XZ5-cn-HxH"/>
+                                    <constraint firstAttribute="height" constant="250" id="fcU-MG-0ck"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="S3o-NT-OeB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KdZ-7T-5zf"/>
                             <constraint firstItem="nJT-dH-IJm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P9i-Dl-msv"/>
+                            <constraint firstItem="S3o-NT-OeB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tl7-ip-Aff"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nJT-dH-IJm" secondAttribute="bottom" id="YgX-GS-Tu5"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="adBannerView" destination="nJT-dH-IJm" id="QBU-8A-qlC"/>
+                        <outlet property="largeBannerView" destination="S3o-NT-OeB" id="5l3-oh-s1r"/>
+                        <outlet property="smallBannerView" destination="nJT-dH-IJm" id="K25-mA-hV0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
