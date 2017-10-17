@@ -25,6 +25,7 @@
     request.targetingAge = @"";
     request.targetingEducation = @"";
     request.targetingGender = @"";
+    request.onlySecureImpressionsAllowed = NO;          // Set this parameter based on your appliation transport security. Use YES if you want to see impressions that are available on HTTPS only. Set NO for enabling HTTP impressions also. Its default value is YES
     
     ////    location Auto Update Enabled by Default, If you disable this then location is need to be set by application which is using this SDK
     //    request.locationAutoUpdateEnabled = NO;

@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements CDAdsListener{
         cdadRequest.targetingAge = "";
         cdadRequest.targetingEducation = "";
         cdadRequest.targetingGender = "";
+        cdadRequest.onlySecureImpressionsAllowed = false;       //Use true if you want to see impressions that are available on HTTPS. Set false for enabling HTTP impressions also.
 
         //    location Auto Update Enabled by Default, If you disable this then location is need to be set by application
         cdadRequest.locationAutoUpdateEnabled = true;

@@ -15,14 +15,14 @@
 @protocol CDADControllerDelegate
 @optional
 -(void)cdViewStoppedExecuting:(CDADBannerView*)view;
--(void)cdadNewtorkRequestStartedForView:(CDADBannerView*)view;
--(void)cdadNetworkRequestFinishedForView:(CDADBannerView*)view;
+-(void)cdAdNewtorkRequestStartedForcdAdViewForView:(CDADBannerView*)view;
+-(void)cdAdNetworkRequestFinishedForcdAdViewForView:(CDADBannerView*)view;
 @end
 
 
 
 @interface CDADController : NSObject
-@property (weak, nonatomic) UIViewController<CDADControllerDelegate> *cdAdControllerDelegate;
+@property (weak, nonatomic) NSObject<CDADControllerDelegate> *cdAdControllerDelegate;
 +(CDADController*)getSharedController;
 -(void)fetchNewAddForView:(CDADBannerView*)view;
 -(void)networkrequestSuccessForView:(CDADBannerView*)view task:(NSURLSessionDataTask*)task request:(NSMutableURLRequest*)request responseObject:(id)responseObject;
