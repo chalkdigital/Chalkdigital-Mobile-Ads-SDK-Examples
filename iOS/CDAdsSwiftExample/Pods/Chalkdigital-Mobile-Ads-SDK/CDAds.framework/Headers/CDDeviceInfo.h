@@ -13,7 +13,7 @@
 @property (readonly, strong, nonatomic) NSString* ua;
 @property (readonly, strong, nonatomic) NSNumber *dnt ;
 @property (readonly, strong, nonatomic) NSNumber *lmt ;
-@property (readonly) NSInteger devicetype;
+@property (nonatomic, readonly) NSInteger devicetype;
 @property (readonly, strong, nonatomic) NSString* make;
 @property (readonly, strong, nonatomic) NSString* model;
 @property (readonly, strong, nonatomic) NSString* os;
@@ -25,7 +25,7 @@
 @property (readonly, strong, nonatomic) NSNumber *js;
 @property (readonly, strong, nonatomic) NSString* language;
 @property (readonly, strong, nonatomic) NSString* carrier;
-@property (readonly) NSInteger connectiontype;
+@property (nonatomic, readonly) NSInteger connectiontype;
 @property (readonly, strong, nonatomic) NSString* idfa;
 +(CDDeviceInfo*)deviceInfo;
 @end

@@ -18,6 +18,12 @@ case "${TARGETED_DEVICE_FAMILY}" in
   2)
     TARGET_DEVICE_ARGS="--target-device ipad"
     ;;
+  3)
+    TARGET_DEVICE_ARGS="--target-device tv"
+    ;;
+  4)
+    TARGET_DEVICE_ARGS="--target-device watch"
+    ;;
   *)
     TARGET_DEVICE_ARGS="--target-device mac"
     ;;
@@ -75,11 +81,15 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/CDAds.bundle"
+  install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads 2.mom"
+  install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads 2.omo"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads.mom"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/VersionInfo.plist"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/CDAds.bundle"
+  install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads 2.mom"
+  install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads 2.omo"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/cdads.mom"
   install_resource "Chalkdigital-Mobile-Ads-SDK/CDAds.framework/cdads.momd/VersionInfo.plist"
 fi

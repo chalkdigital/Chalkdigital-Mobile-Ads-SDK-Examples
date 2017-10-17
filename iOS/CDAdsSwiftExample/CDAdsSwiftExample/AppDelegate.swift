@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         params.secret = "Your_CDAds_Secret"               //Provided by Chalkdigital;
         params.publisherId = "Your_CDAds_Publisher_ID"                 //Provided by Chalkdigital;
         params.logLevel = CDLogLevelDetail
+        params.applicationIABCategory = @"IAB15-10";            //IAB Category of application. In case of multiple IAB Categories use Comma (,) to separate different categories"
 
         _cdAds = CDAds.initialise(with: params, launchpOptions: launchOptions, enableTracking: true);
         return true

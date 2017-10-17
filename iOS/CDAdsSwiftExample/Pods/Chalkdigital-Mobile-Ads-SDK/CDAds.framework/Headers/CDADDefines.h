@@ -8,10 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+#define CDNetworkStatus             @"CDNetworkStatus"
+#define CDNetworkStatusReachable    @"CDNetworkStatusReachable"
+#define CDNetworkStatusNotReachable @"CDNetworkStatusNotReachable"
+#define CDNetworkStatusUnknown      @"CDNetworkStatusUnknown"
+
 typedef enum CDLogLevels{
     CDLogLevelNone,
     CDLogLevelDetail
 }CDLogLevel;
+
+typedef enum CDEnvironments{
+    CDEnvironmentProduction,
+    CDEnvironmentTest
+}CDEnvironment;
 
 typedef enum CDADProviders{
     CDADProviderChalk,
@@ -29,5 +39,3 @@ typedef enum CDADProviders{
     CDADProviderUnityAds,
     CDADProviderYuMe
 }CDADProvider;
-
-

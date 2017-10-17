@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         request.targetingGender = "";
         request.targetingIncome = "";
         request.targetingEducation = "";
+        request.onlySecureImpressionsAllowed = true          // Set this parameter based on your appliation transport security. Use YES if you want to see impressions that are available on HTTPS only. Set NO for enabling HTTP impressions also. Its default value is YES
         
         self.smallBannerView.refreshInterval = 30.0
         self.smallBannerView.rootViewController = self
