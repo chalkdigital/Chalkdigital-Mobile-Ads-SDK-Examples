@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script src="mraid.js"></script>
+        
+        <!-- Setup Javascript -->
+        <script type="text/javascript">
+            console.log("Mraid log ::: ", mraid);
+            mraid.addEventListener("error", handleErrorEvent);
+            
+            function handleErrorEvent(message, action) {
+                var msg = "MRAID ERROR";
+                if (action != null) {
+                    msg += " caused by action '" + action + "',";
+                }
+                msg += " message: " + message;
+                console.log(msg);
+            }
+        
+        function clicked() {
+        try {
+        console.log("Found");
+        console.log( window.mraid);
+         window.location="tel:18005551212";
+            if (mraid.supports("tel")) {
+            console.log("support for tel");
+
+            } else {
+                console.log("no support for tel");
+            }
+
+        } catch(excepton) {
+         console.log("Caught exception ", exception);
+        }
+        }
+        </script>
+    </head>
+    
+    
+    <body style="width:99%; background-color:#FF6600;" >
+        <button style="height:30px;width:90px;"  type='button' onclick='clicked();'>Call tel</button>
+    </body>
+    
+</html>

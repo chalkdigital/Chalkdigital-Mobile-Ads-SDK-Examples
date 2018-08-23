@@ -22,14 +22,16 @@
     params.logLevel = CDLogLevelDetail;
     params.environment = CDEnvironmentTest;                 //Use CDEnvironmentProduction for production
     params.applicationIABCategory = @"IAB15-10";            //IAB Category of application. In case of multiple IAB Categories use Comma (,) to separate different categories"
+    params.siteId = @"Your_CDAds_Key";                                   //Provided by Chalkdigital;
     params.locationUpdateInterval = 60;                     //Set interval at which location update is required, default value is 900 seconds
     params.adLocationExpiryInterval = 40;                   //Set time after which new location for ad request is required, default value is 120 seconds
     params.distanceFilter = 65.0;                           //Set distance after which you want SDK to record location update, default value is 100.0 meters
     params.logLevel = CDLogLevelDetail;                     //Set log level to see SDK logs, default value is CDLogLevelNone
     params.provider = CDADProviderChalk;                    //Choose from ad providers supported by ChalkDigital SDK, default value is CDADProviderChalk
+    params.showTrackingTerms = NO;                      //This is enabed by default. Chalk sdk track user information in background, When its value is YES then sdk will automatically show permission dialog for tracking user information. If any publisher disable this then that publisher must show a similar permission dialog in their app.
+    params.clientHasUserTrackingPermission = YES;       //Enable this flag only if publisher has teken tracking consent from user.
     
     _cdAds = [CDAds initialiseWithParams:params launchpOptions:launchOptions enableTracking:YES];
-
     return YES;
 }
 

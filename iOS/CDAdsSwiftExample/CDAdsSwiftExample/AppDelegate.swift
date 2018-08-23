@@ -20,11 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let params: CDInitialisationParams! = CDInitialisationParams.init()
         params.key = "Your_CDAds_Key"                         //Provided by Chalkdigital;
-        params.secret = "Your_CDAds_Secret"               //Provided by Chalkdigital;
-        params.publisherId = "Your_CDAds_Publisher_ID"                 //Provided by Chalkdigital;
+        params.secret = "Your_CDAds_Secret"                   //Provided by Chalkdigital;
+        params.publisherId = "Your_CDAds_Publisher_ID"        //Provided by Chalkdigital;
+        params.siteId = "Your_CDAds_Key";                                   //Provided by Chalkdigital;
         params.logLevel = CDLogLevelDetail
-        params.applicationIABCategory = @"IAB15-10";            //IAB Category of application. In case of multiple IAB Categories use Comma (,) to separate different categories"
-
+        params.applicationIABCategory = "IAB15-10";            //IAB Category of application. In case of multiple IAB Categories use Comma (,) to separate different categories"
+        params.showTrackingTerms = false;                      //This is enabed by default. Chalk sdk track user information in background, When its value is true then sdk will automatically show permission dialog for tracking user information. If any publisher disable this then that publisher must show a similar permission dialog in their app.
+        params.clientHasUserTrackingPermission = true;       //Enable this flag only if publisher has teken tracking consent from user.
         _cdAds = CDAds.initialise(with: params, launchpOptions: launchOptions, enableTracking: true);
         return true
     }

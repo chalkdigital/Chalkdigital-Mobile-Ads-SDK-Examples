@@ -22,6 +22,7 @@ public class MyApplication extends Application {
         cdAdsInitialisationParams.setLogLevel(Log.VERBOSE);                            //Set log level to see SDK logs, default value is Log.ERROR
         cdAdsInitialisationParams.setEnvironment(CDDefines.CDEnvironment.CDEnvironmentTest);         //change environment attribute to CDEnvironmentProduction when you are using it for production
         cdAdsInitialisationParams.setApplicationIABCategory("IAB15-10");            //IAB Category of application. In case of multiple IAB Categories use Comma (,) to separate different categories"
-        CDAds.initialiseWithParams(cdAdsInitialisationParams, this.getApplicationContext()).start();
+        cdAdsInitialisationParams.setSiteId("1");
+        CDAds.initialiseWithParams(cdAdsInitialisationParams, this).start();
     }
 }
